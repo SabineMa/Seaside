@@ -3,8 +3,8 @@ baselinegettext: spec
 
 	spec for: #('pharo7.x') do:[
 		spec
-			baseline: 'Gettext';
-			repository: 'github://pharo-contributions/Gettext/source'.
+			baseline: 'Gettext'
+			with:[ spec repository: 'github://pharo-contributions/Gettext/source' ].
 				
 		spec
 			package: 'Seaside-Gettext-Core' with: [ spec requires: #('Gettext' 'Seaside-Session') ];

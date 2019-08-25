@@ -6,4 +6,4 @@ register
 		asApplicationAt: 'examples/gettext'.
 	application preferenceAt: #sessionClass put: WAGettextExampleSession.
 	application configuration addParent: WAGetTextConfiguration instance.
-	TextDomainManager registerCategoryPrefix: 'Seaside-Gettext-Examples' domain: 'gettext'.
+	TextDomainManager registerCategoryPrefix: 'Seaside-Gettext-Examples' domain: 'seaside-gettext-example'.
